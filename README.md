@@ -4,7 +4,7 @@
 🎶 Music lover<br>
 🎮 🕹️ Game designer<br>
 💻 Web Developer<br>
-🔮 I will change the world in the future<br>
+🔮 I'm gonna change the world in the future<br>
 
 <strong>What I'm Working on?</strong><br>
 📱 Currently bulding a website and app for programers.<br>
