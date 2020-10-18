@@ -2,7 +2,7 @@
 
 💾 Technology lover<br>
 🎶 Music lover<br>
-🎮 🕹️ Game designer<br>
+🎮  Game designer<br>
 💻 Web Developer<br>
 🔮 I'm gonna change the world in the future<br>
 
