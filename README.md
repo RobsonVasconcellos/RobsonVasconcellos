@@ -12,7 +12,7 @@
 <strong>Find me 📨 </strong><br>
 
 📟 <a href= "topcoder.com/members/rrvasconcellos">Top Coder</a><br>
-💙 <a href= "twitter.com/RobsonvCq">Twitter</a>
+💙 <a href= "http://twitter.com/RobsonvCq">Twitter</a>
 
 
 
