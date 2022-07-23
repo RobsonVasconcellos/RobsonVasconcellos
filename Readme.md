@@ -11,6 +11,3 @@ Technology Lover <br>
 [Site](https://) <br>
 [Twitter](https://twitter.com/) <br>
 [LinkedIn](https://www.linkedin.com/in/robson-vasconcellos-a344b51bb/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bg0mzrEY9QF6HHI8SFA4e5A%3D%3D) <br>
-
-🇧🇷 Born in Porto Alegre, Brazil <br>
-🇳🇱 Living in Amsterdam, The Netherlands <br>
