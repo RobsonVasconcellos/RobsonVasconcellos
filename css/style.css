@@ -1246,6 +1246,30 @@ footer .credits a {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  /*Celular*/
+  .about-img{
+    display: flex;
+    justify-content: center;
+  }
+
+  .rounded{
+    border-radius: 250px !important;
+  }
+
+  .about-img img{
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*Tablet*/
+.email{
+  display: none;
+}
+  
+}
+
 @media (min-width: 992px) {
   .testimonial-box .description {
     padding: 0 8rem;
