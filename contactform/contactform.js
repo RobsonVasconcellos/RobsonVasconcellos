@@ -1,19 +1,19 @@
 jQuery(document).ready(function($) {
   "use strict";
 
-  //Contact
+  //Contato
   $('form.contactForm').submit(function() {
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
-    f.children('input').each(function() { // run all inputs
+    f.children('input').each(function() { // Executar todos os inputs
 
-      var i = $(this); // current input
+      var i = $(this); // Input atual
       var rule = i.attr('data-rule');
 
       if (rule !== undefined) {
-        var ierror = false; // error flag for current input
+        var ierror = false; // Bandeira de erro
         var pos = rule.indexOf(':', 0);
         if (pos >= 0) {
           var exp = rule.substr(pos + 1, rule.length);
@@ -57,13 +57,13 @@ jQuery(document).ready(function($) {
         i.next('.validation').html((ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
       }
     });
-    f.children('textarea').each(function() { // run all inputs
+    f.children('textarea').each(function() { // Executar todos os inputs
 
-      var i = $(this); // current input
+      var i = $(this); // Input atual
       var rule = i.attr('data-rule');
 
       if (rule !== undefined) {
-        var ierror = false; // error flag for current input
+        var ierror = false; // Erro
         var pos = rule.indexOf(':', 0);
         if (pos >= 0) {
           var exp = rule.substr(pos + 1, rule.length);
@@ -99,7 +99,6 @@ jQuery(document).ready(function($) {
       url: action,
       data: str,
       success: function(msg) {
-        // alert(msg);
         if (msg == 'OK') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");

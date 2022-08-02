@@ -9,7 +9,7 @@
     }
   })
 
-  // Preloader
+  // Pre recarregamento
   $(window).on('load', function () {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function () {
@@ -18,7 +18,7 @@
     }
   });
 
-  // Back to top button
+  // Botão para voltar ao topo da página
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -31,14 +31,14 @@
     return false;
   });
 
-	/*--/ Star ScrollTop /--*/
+	/*--/ ScrollTop de estrelas /--*/
 	$('.scrolltop-mf').on("click", function () {
 		$('html, body').animate({
 			scrollTop: 0
 		}, 1000);
 	});
 
-	/*--/ Star Counter /--*/
+	/*--/ Contador de estrelas /--*/
 	$('.counter').counterUp({
 		delay: 15,
 		time: 2000
@@ -58,19 +58,17 @@
 		}
 	});
 
-	// Closes responsive menu when a scroll trigger link is clicked
+	// Fechar o menu responsivo quando um dos links é clicado
 	$('.js-scroll').on("click", function () {
 		$('.navbar-collapse').collapse('hide');
 	});
 
-	// Activate scrollspy to add active class to navbar items on scroll
 	$('body').scrollspy({
 		target: '#mainNav',
 		offset: navHeight
 	});
-	/*--/ End Scrolling nav /--*/
 
-	/*--/ Navbar Menu Reduce /--*/
+	/*--/ Redução do navbar /--*/
 	$(window).trigger('scroll');
 	$(window).on('scroll', function () {
 		var pixels = 50; 
@@ -89,7 +87,6 @@
 		}
 	});
 
-	/*--/ Star Typed /--*/
 	if ($('.text-slider').length == 1) {
     var typed_strings = $('.text-slider-items').text();
 		var typed = new Typed('.text-slider', {
@@ -100,18 +97,5 @@
 			backSpeed: 30
 		});
 	}
-
-	/*--/ Testimonials owl /--*/
-	$('#testimonial-mf').owlCarousel({
-		margin: 20,
-		autoplay: true,
-		autoplayTimeout: 4000,
-		autoplayHoverPause: true,
-		responsive: {
-			0: {
-				items: 1,
-			}
-		}
-	});
 
 })(jQuery);
